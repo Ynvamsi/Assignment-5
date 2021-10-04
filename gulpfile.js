@@ -1,6 +1,7 @@
 var {src, dest, watch} = require('gulp');
 var sass = require('gulp-sass');
 sass.compiler = require('node-sass');
+//var sass = require('gulp-sass')(require('sass'));
 
 function css () {
     return src('src/*.scss')
